@@ -25,7 +25,8 @@ struct HarleyDavidsonAIRideApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+          RideMapView()
         }
         .modelContainer(sharedModelContainer)
     }
